@@ -12,5 +12,4 @@
 ## 🧑🏻‍💻 หน้าตา UI
 
 
-![JoTTnS.png](https://sv1.picz.in.th/images/2023/01/07/JoTTnS.png)
-
+![Logo](https://drive.google.com/file/d/1QrMQt9V6tDo3ZQSGkH7RmUJwiVjEulNL/view?usp=sharing)
