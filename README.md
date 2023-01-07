@@ -11,5 +11,4 @@
 
 ## 🧑🏻‍💻 หน้าตา UI
 
-
-![Logo](https://drive.google.com/file/d/1QrMQt9V6tDo3ZQSGkH7RmUJwiVjEulNL/view?usp=sharing](https://sv1.img.in.th/TIt2l.png)
+![Logo](https://sv1.img.in.th/TIt2l.png)
