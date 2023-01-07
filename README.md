@@ -14,3 +14,8 @@
 ![Logo](https://sv1.img.in.th/TIt2l.png)
 ![Logo](https://sv1.img.in.th/TbmWL.png)
 ![Logo](https://sv1.img.in.th/Tbt8Y.png)
+
+## สมาชิกในกลุ่ม
+64117039	นายทีปกร ตระกูลกลกิจ
+64108673	นางสาวปิ่นสุดา จรเทพ
+64110588	นางสาวภัทรภร ร่าหมาน
