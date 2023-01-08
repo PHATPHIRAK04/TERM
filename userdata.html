@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <!-- sweet alert -->
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <script>
     function body_load() {
       const url = "http://localhost:3000/PriceCT";
@@ -43,20 +45,22 @@
             var cell11 = row.insertCell(10);
             var cell12 = row.insertCell(11);
             var cell13 = row.insertCell(12);
+            var cell14 = row.insertCell(13);
             const item = res[i];
-            cell1.innerHTML = item.id;
-            cell2.innerHTML = item.ชื่อ_นามสกุลผู้จอง;
-            cell3.innerHTML = item.เบอร์โทร;
-            cell4.innerHTML = item.ราคาเต๊นท์;
-            cell5.innerHTML = item.จำนวนเต๊นท์;
-            cell6.innerHTML = item.ราคาอุปกรณ์;
-            cell7.innerHTML = item.จำนวนอุปกรณ์;
-            cell8.innerHTML = item.ราคาผู้ใหญ่;
-            cell9.innerHTML = item.ราคาเด็ก;
-            cell10.innerHTML = item.ราคารวม;
-            cell11.innerHTML = item.วันที่เข้าพัก;
-            cell12.innerHTML = item.วันที่ออก;
-            cell13.innerHTML = "<button class='btn btn-danger' onclick='item_dele(" + item.id + ")'> ลบ </button>" + "<button class='btn btn-warning' onclick='item_edit(" + item.id + ")'> แก้ไข </button>";
+            cell1.innerHTML = `<img class="animate__animated animate__bounceInLeft" src='https://robohash.org/${item.ชื่อ_นามสกุลผู้จอง}'>`
+            cell2.innerHTML = item.id;
+            cell3.innerHTML = item.ชื่อ_นามสกุลผู้จอง;
+            cell4.innerHTML = item.เบอร์โทร;
+            cell5.innerHTML = item.ราคาเต๊นท์;
+            cell6.innerHTML = item.จำนวนเต๊นท์;
+            cell7.innerHTML = item.ราคาอุปกรณ์;
+            cell8.innerHTML = item.จำนวนอุปกรณ์;
+            cell9.innerHTML = item.ราคาผู้ใหญ่;
+            cell10.innerHTML = item.ราคาเด็ก;
+            cell11.innerHTML = item.ราคารวม;
+            cell12.innerHTML = item.วันที่เข้าพัก;
+            cell13.innerHTML = item.วันที่ออก;
+            cell14.innerHTML = "<button class='btn btn-danger' onclick='item_dele(" + item.id + ")'> ลบ </button>" + "<button class='btn btn-warning' onclick='item_edit(" + item.id + ")'> แก้ไข </button>";
           }
         });
       const Toast = Swal.mixin({
@@ -183,6 +187,12 @@
     width: 100%;
   }
 
+  img {
+    width: 100px;
+    background-color: rgb(229, 217, 182);
+    border-radius: 10%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
 </style>
 
 <body onload="body_load()">
@@ -193,6 +203,7 @@
         <table class="table table-sm">
       <thead class="thead-dark">
         <tr>
+          <th></th>
           <th>ID</th>
           <th>ชื่อ-นามสกุลผู้จอง</th>
           <th>เบอร์โทร</th>
