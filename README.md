@@ -16,6 +16,24 @@
 ![Logo](https://sv1.img.in.th/TbmWL.png)
 ![Logo](https://sv1.img.in.th/Tbt8Y.png)
 
+## Data dict
+|# | Attribute | Description | Data Type | Example |
+|1|----------|----------|----------|----------|
+|2| name  | ชื่อที่ใช้สำหรับเก็บข้อมูล  |String|Teepang Tk| 
+|3| tell   | เบอร์โทรศัพท์   | String| 0630778564|
+|4| guests-children   | จำนวนเด็กที่เข้าพัก  | String| 2 |
+|5| guests | จำนวนผู้ใหญ่ที่เข้าพัก   | String| 3 |
+|6| guests | จำนวนผู้ใหญ่ที่เข้าพัก   | String| 3 |
+|7| tent | จำนวนเต็นท์   | String| 3 |
+|8| tent size  | ขนาดของเต็นท์  | String| 2 |
+|9| tent accessory | อุปกรณ์   | String| หมอน |
+|10| quantity	 | จำนวนอุปกรณ์   | String| 2 |
+|11| check-in	 | วันที่เข้าพัก  | String| 01/18/2023 |
+|10| check-out	 | วันที่ออก   | String| 01/20/2023 |
+
+
+
+
 ##  ที่ปรึกษาโปรเจค
 อาจารย์ชนันกร จันทร์แดง
 
@@ -29,9 +47,3 @@
 
 ##
 สาขาเทคโนโลยีสารสนเทศและนวัตกรรมดิจิทัล ชั้นปีที่ 2 
-
-## Data dict
-| Name | Meaning | 
-|----------|----------|
-| ชื่อ(name)  | ใช้สำหรับเก็บข้อมูลว่าบุคคลใดที่ได้ทำการจองเต็นท์หรืออุปกรณ์ต่าง ๆ  | 
-| Row 2    | Cell 5   | 
