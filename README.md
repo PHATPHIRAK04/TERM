@@ -12,9 +12,9 @@
 
 ## 🧑🏻‍💻 หน้าตา UI
 
-![Logo](https://sv1.img.in.th/TIt2l.png)
-![Logo](https://sv1.img.in.th/TbmWL.png)
-![Logo](https://sv1.img.in.th/Tbt8Y.png)
+![Logo](https://sv1.img.in.th/TdcaJ.png)
+![Logo](https://sv1.img.in.th/TdtBp.png)
+![Logo](https://sv1.img.in.th/Tdyrg.png)
 
 ## Data dict
 | Attribute |Description |  Datatype | Example |
