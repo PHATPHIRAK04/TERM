@@ -17,14 +17,11 @@
 ![Logo](https://sv1.img.in.th/Tbt8Y.png)
 
 ## Data dict
-|# | Attribute | Description | Data Type | Example |
-|1|  ----------|----------|----------|----------|
-|2| name  | ชื่อที่ใช้สำหรับเก็บข้อมูล  |String | Teepang Tk | 
+| Attribute |Description |  Datatype | Example |
+|----------|----------|----------|----------|
+| Row 1    | Cell 2   | Cell 3   | Cell 4   |
+| Row 2    | Cell 5   | Cell 6   | Cell 7   |
 
-|No | Attribute | Description | Data Type |
-|----------|----------|----------|
-| Row 1    | Cell 2   | Cell 3   |
-| Row 2    | Cell 5   | Cell 6   |
 
 
 
