@@ -31,7 +31,7 @@
 | check-out  | วันที่ออก  | string   | 01/17/2026  |
 
 ## Youtube
-https://www.youtube.com/watch?v=Gs3IMnW3vCk
+https://youtu.be/Z1p6PmkF21s
 
 
 ##  ที่ปรึกษาโปรเจค
