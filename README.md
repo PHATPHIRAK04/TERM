@@ -19,22 +19,16 @@
 ## Data dict
 | Attribute |Description |  Datatype | Example |
 |----------|----------|----------|----------|
-| name    | ชื่อที่ใช้ในการเก็บข้อมูล   | Cell 3   | Cell 4   |
-| tell    | เบอร์โทรศัพท์   | Cell 6   | Cell 7   |
-| children    | จำนวนเด็กที่เข้าพัก  | Cell 6   | Cell 7   |
-| guests   | จำนวนผู้ใหญ่ที่เข้าพัก   | Cell 6   | Cell 7   |
-| tent   | จำนวนเต็นท์   | Cell 6   | Cell 7   |
-| tent-size   | ขนาดเต็นท์  | Cell 6   | Cell 7   |
-| tent-accessory   | อุปกรณ์   | Cell 6   | Cell 7   |
-| amount   | จำนวนอุปกรณ์  | Cell 6   | Cell 7   |
-| check-in   | วันที่เข้า   | Cell 6   | Cell 7   |
-| check-out  | วันที่ออก  | Cell 6   | Cell 7   |
-
-
-
-
-
-
+| name    | ชื่อที่ใช้ในการเก็บข้อมูล   | string   | Teepang Tk   |
+| tell    | เบอร์โทรศัพท์   | string   | 0894986578   |
+| children    | จำนวนเด็กที่เข้าพัก  | string  | 7   |
+| guests   | จำนวนผู้ใหญ่ที่เข้าพัก   | string   | 4   |
+| tent   | จำนวนเต็นท์   | string  | 5  |
+| tent-size   | ขนาดเต็นท์  | string  | 3  |
+| tent-accessory   | อุปกรณ์   | string  | หมอน   |
+| amount   | จำนวนอุปกรณ์  | string   | 5   |
+| check-in   | วันที่เข้า   |string   | 01/15/2023   |
+| check-out  | วันที่ออก  | string   | 01/17/2026  |
 
 
 
