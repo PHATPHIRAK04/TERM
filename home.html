@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <!-- sweet alert -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <style>
     body {
         font-family: 'Kanit', sans-serif;
-        background: rgb(229, 217, 182);
+        background: rgb(185, 221, 187);
     }
 
     .container {
@@ -38,6 +38,7 @@
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        text-align: center;
 
     }
 
@@ -57,14 +58,14 @@
     <div class="container">
         <div class="row">
             <div class="title col-12">
-                <h1 class="text-center text-white"><i class="fa-solid fa-tents"></i>&nbsp;&nbsp;จองเต็นท์</h1>
+                <h1 class="text-center text-white animate__animated animate__zoomIn"><i class="fa-solid fa-tents"></i>&nbsp;&nbsp;จองเต็นท์อุทยานธาราริน</h1>
             </div>
             <div class="col-6">
-                <img src="https://scontent.fbkk5-8.fna.fbcdn.net/v/t39.30808-6/322839569_5287642231340008_876072483715415471_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5cd70e&_nc_eui2=AeEog5YfZcbK3EY-FsnHNawDtiVlNk-Ib5i2JWU2T4hvmMmS-ppAywui5Zwz91QjMsZJJ4eK4AWtW-6oxrskWbBi&_nc_ohc=SxeyZDXZ-HEAX8gIBGB&_nc_ht=scontent.fbkk5-8.fna&oh=00_AfAF9wY7qt571Id3Qt5r7OAPk3dTZAnGOaVHvySmodBgKw&oe=63BB7F57"
+                <img class="animate__animated animate__zoomIn" src="https://scontent.fbkk5-8.fna.fbcdn.net/v/t39.30808-6/322839569_5287642231340008_876072483715415471_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5cd70e&_nc_eui2=AeEog5YfZcbK3EY-FsnHNawDtiVlNk-Ib5i2JWU2T4hvmMmS-ppAywui5Zwz91QjMsZJJ4eK4AWtW-6oxrskWbBi&_nc_ohc=SxeyZDXZ-HEAX8gIBGB&_nc_ht=scontent.fbkk5-8.fna&oh=00_AfAF9wY7qt571Id3Qt5r7OAPk3dTZAnGOaVHvySmodBgKw&oe=63BB7F57"
                     alt="My Image" width="100%">
             </div>
             <div class="col-6">
-                <img src="https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/322945995_3238872479697408_315355016816959278_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5cd70e&_nc_eui2=AeHp1ciqEFziBeImwswZ9915JpcTSUhnk58mlxNJSGeTn1v9terT3KrL4XTig9wPvguRbcZpHseB9w742H_b3EGi&_nc_ohc=yTWJgTsVuBsAX_wnHi8&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfB52ShUKh48JNg98yAGAXTOffa9zpUZdnZObe3XOH922g&oe=63BBBE82"
+                <img class="animate__animated animate__zoomIn" src="https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/322945995_3238872479697408_315355016816959278_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5cd70e&_nc_eui2=AeHp1ciqEFziBeImwswZ9915JpcTSUhnk58mlxNJSGeTn1v9terT3KrL4XTig9wPvguRbcZpHseB9w742H_b3EGi&_nc_ohc=yTWJgTsVuBsAX_wnHi8&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfB52ShUKh48JNg98yAGAXTOffa9zpUZdnZObe3XOH922g&oe=63BBBE82"
                     alt="My Image" width="100%">
             </div>
             <div class="col-12">
@@ -99,13 +100,14 @@
         timer: 3000,
         timerProgressBar: true,
         didOpen: (toast) => {
-          toast.addEventListener('mouseenter', Swal.stopTimer)
-          toast.addEventListener('mouseleave', Swal.resumeTimer)
+            toast.addEventListener('mouseenter', Swal.stopTimer)
+            toast.addEventListener('mouseleave', Swal.resumeTimer)
         }
-      })
-      Toast.fire({
+    })
+    Toast.fire({
         icon: 'success',
         title: 'ยินดีต้อนรับสู้เว็บไซต์จุดจองเต็นท์'
-      })
+    })
 </script>
+
 </html>
