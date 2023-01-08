@@ -19,15 +19,16 @@
 ## Data dict
 | Attribute |Description |  Datatype | Example |
 |----------|----------|----------|----------|
-| name    | Cell 2   | Cell 3   | Cell 4   |
-| tell    | Cell 5   | Cell 6   | Cell 7   |
-| children    | Cell 5   | Cell 6   | Cell 7   |
-| guests   | Cell 5   | Cell 6   | Cell 7   |
-| tent   | Cell 5   | Cell 6   | Cell 7   |
-| tent-size   | Cell 5   | Cell 6   | Cell 7   |
-| tent-accessory   | Cell 5   | Cell 6   | Cell 7   |
-| check-in   | Cell 5   | Cell 6   | Cell 7   |
-| check-out  | Cell 5   | Cell 6   | Cell 7   |
+| name    | ชื่อที่ใช้ในการเก็บข้อมูล   | Cell 3   | Cell 4   |
+| tell    | เบอร์โทรศัพท์   | Cell 6   | Cell 7   |
+| children    | จำนวนเด็กที่เข้าพัก  | Cell 6   | Cell 7   |
+| guests   | จำนวนผู้ใหญ่ที่เข้าพัก   | Cell 6   | Cell 7   |
+| tent   | จำนวนเต็นท์   | Cell 6   | Cell 7   |
+| tent-size   | ขนาดเต็นท์  | Cell 6   | Cell 7   |
+| tent-accessory   | อุปกรณ์   | Cell 6   | Cell 7   |
+| amount   | จำนวนอุปกรณ์  | Cell 6   | Cell 7   |
+| check-in   | วันที่เข้า   | Cell 6   | Cell 7   |
+| check-out  | วันที่ออก  | Cell 6   | Cell 7   |
 
 
 
