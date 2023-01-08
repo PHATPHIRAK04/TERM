@@ -19,8 +19,20 @@
 ## Data dict
 | Attribute |Description |  Datatype | Example |
 |----------|----------|----------|----------|
-| Row 1    | Cell 2   | Cell 3   | Cell 4   |
-| Row 2    | Cell 5   | Cell 6   | Cell 7   |
+| name    | Cell 2   | Cell 3   | Cell 4   |
+| tell    | Cell 5   | Cell 6   | Cell 7   |
+| children    | Cell 5   | Cell 6   | Cell 7   |
+| guests   | Cell 5   | Cell 6   | Cell 7   |
+| tent   | Cell 5   | Cell 6   | Cell 7   |
+| tent-size   | Cell 5   | Cell 6   | Cell 7   |
+| tent-accessory   | Cell 5   | Cell 6   | Cell 7   |
+| check-in   | Cell 5   | Cell 6   | Cell 7   |
+| check-out  | Cell 5   | Cell 6   | Cell 7   |
+
+
+
+
+
 
 
 
