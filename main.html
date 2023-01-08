@@ -16,11 +16,12 @@
   <!-- sweet alert -->
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <style>
   body {
     font-family: 'Kanit', sans-serif;
-    background: rgb(229, 217, 182);
+    background: rgb(147, 195, 154);
   }
 
   .container {
@@ -37,7 +38,7 @@
     margin-bottom: 0px;
     padding: 30px;
     
-    background: rgb(255,225,225);
+    background: rgb(215, 237, 211);
     border-radius: 0px;
     box-shadow: none;
   }
@@ -85,6 +86,12 @@
     padding: 20px;
     
   }
+
+  #profile {
+    border-radius: 10px;
+    background-color: rgb(229, 217, 182);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
 </style>
 
 <body>
@@ -102,13 +109,25 @@
           style="text-decoration: none; color: black;">ข้อมูลการจอง</a></button>
     </nav>
     <div class="banner container">
-      <h1><i class="fa-solid fa-tents"></i>&nbsp;&nbsp;ข้อมูลการจองเต็นท์</h1>
+      <h1 class="animate__animated animate__zoomIn"><i class="fa-solid fa-tents"></i>&nbsp;&nbsp;ข้อมูลการจองเต็นท์</h1>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
+          <img id="profile" src="https://robohash.org/none" width="100px">
+          <br>
+          <br>
           <h6><i class="fa-solid fa-signature"></i>&nbsp;&nbsp;ชื่อ-นามสกุลผู้จอง</h6>
-          <input type="text" id="name" placeholder="ชื่อ-นามสกุล">
+          <input type="text" id="name" placeholder="ชื่อ-นามสกุล" onblur="profile()">
+          <script>
+            function profile() {
+              var x = document.getElementById("name").value;
+              if (x == "") {
+                x = "none";
+              }
+              document.getElementById("profile").src = "https://robohash.org/" + x;
+            }
+          </script>
           <br>
           <h6><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;เบอร์โทรศัพท์ผู้จอง</h6>
           <input type="text" id="phone" placeholder="เบอร์โทรศัพท์">
@@ -293,27 +312,12 @@
                       "วันที่ออก": checkout
 
                     })
-                  })
+                  })  
                     .then(response => response.json())
                     .then(data => console.log(data))
                     .catch(error => console.log(error))
-
+                    window.location.href = "./userdata.html";
                 }
-              })
-              const Toast = Swal.mixin({
-                toast: true,
-                position: 'top-end',
-                showConfirmButton: false,
-                timer: 3000,
-                timerProgressBar: true,
-                didOpen: (toast) => {
-                  toast.addEventListener('mouseenter', Swal.stopTimer)
-                  toast.addEventListener('mouseleave', Swal.resumeTimer)
-                }
-              })
-              Toast.fire({
-                icon: 'success',
-                title: 'โหลดข้อมูลเรียบร้อย'
               })
             }
 
@@ -357,14 +361,14 @@
               }
               else {
                 sumprice1();
-              }
+              } 
             }
           </script>
           <!-- btn full width -->
           <button class="btn btn-danger" onclick="check()">บันทึกข้อมูล</button>
         </div>
         <div class="bar col-sm-6">
-          <img style="border-radius: 30px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);" src="https://f.tpkcdn.com/review-source/3f28b421-6f38-af17-7d62-5f52464cd47e.jpg"
+          <img class="animate__animated animate__zoomIn" style="border-radius: 30px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);" src="https://f.tpkcdn.com/review-source/3f28b421-6f38-af17-7d62-5f52464cd47e.jpg"
                     alt="My Image" width="80%">
         </div>
       </div>
